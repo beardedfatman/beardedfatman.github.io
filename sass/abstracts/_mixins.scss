@@ -1,0 +1,25 @@
+@mixin clearfix {
+    &::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+
+
+
+
+
+// MEDIA QUERY MANAGER
+/*
+0 - 600px: Phone
+600 - 900px: Tablet Portrait
+900 - 1200px: Tablet landscape
+1200 - 1800px: Normal styles apply
+1800px+: Big desktops
+*/
+
+@mixin respond-phone {
+    @media (max-width: 600px) { @content }
+}

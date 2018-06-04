@@ -1,0 +1,110 @@
+@keyframes moveInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-10rem);
+    }
+
+    80% {
+        transform: translateX(1rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(10rem);
+    }
+
+    80% {
+        transform: translateX(-1rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(3rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes slide {
+    0% {
+        background-image: linear-gradient(
+            to right bottom,
+             rgba($color-primary-light, 0.8), 
+             rgba($color-primary-dark, 0.8)
+        ), url(../img/home1.jpg);
+        background-size: cover;
+        background-position: top;
+        position: relative;
+    }
+    32% {
+        background-image: linear-gradient(
+            to right bottom,
+             rgba($color-primary-light, 0.8), 
+             rgba($color-primary-dark, 0.8)
+        ), url(../img/home1.jpg);
+        background-size: cover;
+        background-position: top;
+        position: relative;
+    }
+    33% {
+        background-image: linear-gradient(
+            to right bottom,
+             rgba($color-primary-light, 0.8), 
+             rgba($color-primary-dark, 0.8)
+        ), url(../img/home2.jpg);
+        background-size: cover;
+        background-position: top;
+    }
+    65% {
+        background-image: linear-gradient(
+            to right bottom,
+             rgba($color-primary-light, 0.8), 
+             rgba($color-primary-dark, 0.8)
+        ), url(../img/home2.jpg);
+        background-size: cover;
+        background-position: top;
+        position: relative;
+    }
+    66% {
+        background-image: linear-gradient(
+            to right bottom,
+             rgba($color-primary-light, 0.8), 
+             rgba($color-primary-dark, 0.8)
+        ), url(../img/home3.jpg);
+        background-size: cover;
+        background-position: top;
+        position: relative;
+    }
+    100% {
+        background-image: linear-gradient(
+            to right bottom,
+             rgba($color-primary-light, 0.8), 
+             rgba($color-primary-dark, 0.8)
+        ), url(../img/home3.jpg);
+        background-size: cover;
+        background-position: top;
+        position: relative;
+    }
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
