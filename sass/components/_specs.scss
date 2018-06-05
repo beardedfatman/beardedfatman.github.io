@@ -1,12 +1,13 @@
 .specs {
     &__table {
         box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
-        background-color: $color-white;
+        background-color: rgba($color-white, .8);
+        border-radius: 5px;
     }
 
     &__table-row,
     &__table-cell {
-        border: 1px solid $color-primary;
+        border-bottom: 1px solid $color-primary;
     }
 
     &__table-cell {

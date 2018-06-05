@@ -443,10 +443,11 @@ body {
 
 .specs__table {
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
-  background-color: #fff; }
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 3px; }
 
 .specs__table-row, .specs__table-cell {
-  border: 1px solid #b5b6b5; }
+  border-bottom: 1px solid #b5b6b5; }
 
 .specs__table-cell {
   padding: .5rem; }
