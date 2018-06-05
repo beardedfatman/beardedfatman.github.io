@@ -1,0 +1,20 @@
+.specs {
+    &__table {
+        box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
+        background-color: $color-white;
+    }
+
+    &__table-row,
+    &__table-cell {
+        border: 1px solid $color-primary;
+    }
+
+    &__table-cell {
+        padding: .5rem;
+    }
+
+    &__button {
+        top: 50%;
+        left: 45%;
+    }
+}

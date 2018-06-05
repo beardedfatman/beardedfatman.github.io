@@ -12,14 +12,16 @@
 @import "components/composition";
 @import "components/feature-box";
 @import "components/form";
+@import "components/_specs";
 
 @import "layout/footer";
 @import "layout/grid";
 @import "layout/header";
 @import "layout/navigation";
+@import "layout/_sub-header";
 
 @import "pages/home";
-
+@import "pages/products";
 
 
 

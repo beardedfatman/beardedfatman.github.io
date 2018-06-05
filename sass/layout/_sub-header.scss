@@ -1,0 +1,29 @@
+.sub-header {
+    height: 69vh;
+    background-image: linear-gradient(
+            to right bottom,
+             rgba($color-primary-light, 0.8), 
+             rgba($color-primary-dark, 0.8)
+        ), url(../img/home3.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+
+    &__logo-box {
+        position: absolute;
+        top: 4rem;
+        left: 4rem;
+    }
+
+    &__logo {
+        height: 11.5rem;
+    }
+
+    &__text-box {
+        position: absolute;
+        top: 39%;
+        left: 50%;
+        transform: translate(-50%, -50%); /* half of its own height n width */
+        text-align: center;
+    }
+}
