@@ -135,6 +135,9 @@ body {
 .u-center-text {
   text-align: center !important; }
 
+.u-margin-bottom-huge {
+  margin-bottom: 10rem !important; }
+
 .u-margin-bottom-big {
   margin-bottom: 8rem !important; }
 
@@ -444,7 +447,7 @@ body {
 .specs__table {
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
   background-color: rgba(255, 255, 255, 0.8);
-  border-radius: 3px; }
+  border-radius: 5px; }
 
 .specs__table-row, .specs__table-cell {
   border-bottom: 1px solid #b5b6b5; }
@@ -667,6 +670,26 @@ body {
     /* half of its own height n width */
     text-align: center; }
 
+.sub-header-contact {
+  height: 69vh;
+  background-image: linear-gradient(to right bottom, rgba(253, 254, 255, 0.8), rgba(30, 17, 17, 0.8)), url(../img/contact.jpg);
+  background-size: cover;
+  background-position: top;
+  position: relative; }
+  .sub-header-contact__logo-box {
+    position: absolute;
+    top: 4rem;
+    left: 4rem; }
+  .sub-header-contact__logo {
+    height: 11.5rem; }
+  .sub-header-contact__text-box {
+    position: absolute;
+    top: 39%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* half of its own height n width */
+    text-align: center; }
+
 .section-about {
   background-color: #f7f7f7;
   padding: 25rem 0;
@@ -686,20 +709,6 @@ body {
   padding: 25rem 0 15rem 0;
   margin-top: -10rem; }
 
-.section-book {
-  padding: 15rem 0;
-  background-image: linear-gradient(to right bottom, #fdfeff, #1e1111); }
-
-.book {
-  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../img/nat-10.jpg);
-  background-size: cover;
-  border-radius: .3rem;
-  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
-  height: 50rem; }
-  .book__form {
-    width: 50%;
-    padding: 6rem; }
-
 .section-sd-cards {
   background-color: #f7f7f7;
   padding: 25rem 0 15rem 0;
@@ -709,3 +718,17 @@ body {
   background-color: #f7f7f7;
   padding: 5rem 0 15rem 0;
   margin-top: -10rem; }
+
+.contact {
+  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../img/home2.jpg);
+  background-size: cover;
+  border-radius: .3rem;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
+  height: 50rem; }
+  .contact__form {
+    width: 50%;
+    padding: 6rem; }
+
+.section-contact {
+  padding: 15rem 0;
+  background-image: linear-gradient(to right bottom, #fdfeff, #1e1111); }
