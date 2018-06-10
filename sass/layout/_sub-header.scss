@@ -9,6 +9,10 @@
     background-position: top;
     position: relative;
 
+    @include respond(tab-port) {
+        height: 93vh;
+    }
+
     &__logo-box {
         position: absolute;
         top: 4rem;
