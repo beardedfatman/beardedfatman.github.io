@@ -1,0 +1,51 @@
+.sub-header-warranty {
+    height: 69vh;
+    background-image: linear-gradient(
+            to right bottom,
+             rgba($color-primary-light, 0.8), 
+             rgba($color-primary-dark, 0.8)
+        ), url(../img/warranty.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+
+    @include respond(tab-port) {
+        height: 93vh;
+    }
+
+    &__logo-box {
+        position: absolute;
+        top: 4rem;
+        left: 4rem;
+    }
+
+    &__logo {
+        height: 11.5rem;
+    }
+
+    &__text-box {
+        position: absolute;
+        top: 39%;
+        left: 50%;
+        transform: translate(-50%, -50%); /* half of its own height n width */
+        text-align: center;
+    }
+}
+
+.warranty {
+    background-size: cover;
+    border-radius: .3rem;
+    box-shadow: 0 1.5rem 4rem rgba($color-black, .2);
+    
+    &__text {
+        width: 100%;
+        padding: 6rem;
+        background-color: white;
+        text-align: center;
+    }
+}
+
+.section-warranty {
+    padding: 15rem 0;
+    background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
+}
