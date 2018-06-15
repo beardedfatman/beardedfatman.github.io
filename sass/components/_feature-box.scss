@@ -1,15 +1,32 @@
 .feature-box {
-    height: 47rem;
     background-color: rgba($color-white, .8);
     font-size: 1.5rem;
-    padding: 2.5rem;
     text-align: center;
     border-radius: 3px;
     box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
-    transition: transform .3s;
+    transition: all .35s;
 
-    @include respond(tab-port) {
-        padding: 2rem;
+    &__header {
+        cursor: pointer;
+        background-color: whitesmoke;
+        padding: 1rem 2rem;
+
+
+        &:hover {
+            background-color: #ddd
+        }
+    }
+
+    &__content {
+        border-left: 1px solid whitesmoke;
+        border-right: 1px solid whitesmoke;
+        max-height: 0;
+        overflow: hidden;
+        transition: all 0.2s ease-in;
+    }
+
+    &__text {
+        padding: 3rem;
     }
 
     &__icon {
@@ -19,13 +36,9 @@
         background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
         -webkit-background-clip: text;
         color: transparent;
-
-        @include respond(tab-port) {
-            margin-bottom: 0;
         }
     }
- 
-    &:hover {
-        transform: translateY(-1.5rem) scale(1.03);
-    }
+
+    
+    
 }
