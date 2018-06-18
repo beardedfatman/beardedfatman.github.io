@@ -27,13 +27,22 @@
         width: 33.333333%;
         display: table-cell;
         vertical-align: middle;
+
+        @include respond(phone) {
+            display: inline-block;
+            width: 100%;
+        }
     }
 
     &__right {
         width: 66.666667%;
         display: table-cell;
-        
         padding: 3rem 5rem;
+
+        @include respond(phone) {
+            display: inline-block;
+            width: 100%;
+        }
     }
 
     &__img {
