@@ -5,12 +5,13 @@
     border-radius: 3px;
     box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
     transition: all .35s;
+    
 
     &__header {
         cursor: pointer;
         background-color: whitesmoke;
         padding: 1rem 2rem;
-
+        height: 16rem;
 
         &:hover {
             background-color: #ddd
@@ -38,4 +39,9 @@
         color: transparent;
     }
 
+    &__image {
+        max-width:80%; 
+        height: auto; 
+        padding-bottom: 3rem;
+    }
 }
