@@ -29,9 +29,9 @@
         width: 33.333333%;
         display: table-cell;
         vertical-align: middle;
-
         @include respond(phone) {
-            display: none;
+            display: inline-block;
+            width: 95%;
         }
     }
 
