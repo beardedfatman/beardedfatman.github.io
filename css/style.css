@@ -517,7 +517,8 @@ body {
     @media (max-width: 37.5em) {
       .popup__right {
         display: inline-block;
-        width: 100%; } }
+        width: 100%;
+        padding: 0 5rem; } }
   .popup__img {
     display: block;
     width: 100%; }
