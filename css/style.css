@@ -37,31 +37,31 @@
 
 @keyframes slide {
   0% {
-    background-image: linear-gradient(to right bottom, rgba(253, 254, 255, 0.8), rgba(30, 17, 17, 0.8)), url(../img/home1.jpg);
+    background-image: linear-gradient(to right bottom, rgba(253, 254, 255, 0.8), rgba(30, 17, 17, 0.8)), url(../img/cover/1.jpg);
     background-size: cover;
     background-position: top;
     position: relative; }
   32% {
-    background-image: linear-gradient(to right bottom, rgba(253, 254, 255, 0.8), rgba(30, 17, 17, 0.8)), url(../img/home1.jpg);
+    background-image: linear-gradient(to right bottom, rgba(253, 254, 255, 0.8), rgba(30, 17, 17, 0.8)), url(../img/cover/1.jpg);
     background-size: cover;
     background-position: top;
     position: relative; }
   33% {
-    background-image: linear-gradient(to right bottom, rgba(253, 254, 255, 0.8), rgba(30, 17, 17, 0.8)), url(../img/home2.jpg);
+    background-image: linear-gradient(to right bottom, rgba(253, 254, 255, 0.8), rgba(30, 17, 17, 0.8)), url(../img/cover/2.jpg);
     background-size: cover;
     background-position: top; }
   65% {
-    background-image: linear-gradient(to right bottom, rgba(253, 254, 255, 0.8), rgba(30, 17, 17, 0.8)), url(../img/home2.jpg);
+    background-image: linear-gradient(to right bottom, rgba(253, 254, 255, 0.8), rgba(30, 17, 17, 0.8)), url(../img/cover/2.jpg);
     background-size: cover;
     background-position: top;
     position: relative; }
   66% {
-    background-image: linear-gradient(to right bottom, rgba(253, 254, 255, 0.8), rgba(30, 17, 17, 0.8)), url(../img/home3.jpg);
+    background-image: linear-gradient(to right bottom, rgba(253, 254, 255, 0.8), rgba(30, 17, 17, 0.8)), url(../img/cover/3.jpg);
     background-size: cover;
     background-position: top;
     position: relative; }
   100% {
-    background-image: linear-gradient(to right bottom, rgba(253, 254, 255, 0.8), rgba(30, 17, 17, 0.8)), url(../img/home3.jpg);
+    background-image: linear-gradient(to right bottom, rgba(253, 254, 255, 0.8), rgba(30, 17, 17, 0.8)), url(../img/cover/3.jpg);
     background-size: cover;
     background-position: top;
     position: relative; } }
@@ -632,7 +632,7 @@ body {
 
 .header {
   height: 93vh;
-  background-image: linear-gradient(to right bottom, rgba(253, 254, 255, 0.8), rgba(30, 17, 17, 0.8)), url(../img/home2.jpg);
+  background-image: linear-gradient(to right bottom, rgba(253, 254, 255, 0.8), rgba(30, 17, 17, 0.8)), url(../img/cover/2.jpg);
   background-size: cover;
   background-position: top;
   position: relative;
