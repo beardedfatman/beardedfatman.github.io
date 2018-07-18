@@ -62,12 +62,13 @@
         background-size: cover;
         background-position: top;
         position: relative;
+        
     }
     33% {
         background-image: linear-gradient(
             to right bottom,
-             rgba($color-primary-light, 0.5), 
-             rgba($color-primary-dark, 0.5)
+            rgba($color-primary-light, 0.5), 
+            rgba($color-primary-dark, 0.5)
         ), url(../img/cover/2.jpg);
         background-size: cover;
         background-position: top;
@@ -75,8 +76,8 @@
     65% {
         background-image: linear-gradient(
             to right bottom,
-             rgba($color-primary-light, 0.5), 
-             rgba($color-primary-dark, 0.5)
+            rgba($color-primary-light, 0.5), 
+            rgba($color-primary-dark, 0.5)
         ), url(../img/cover/2.jpg);
         background-size: cover;
         background-position: top;
@@ -101,6 +102,71 @@
         background-size: cover;
         background-position: top;
         position: relative;
+    }
+}
+
+@include respond(phone) {
+    @keyframes slide {
+        0% {
+            background-image: linear-gradient(
+                to right bottom,
+                 rgba($color-primary-light, 0.5), 
+                 rgba($color-primary-dark, 0.5)
+            ), url(../img/cover/1.jpg);
+            background-size: cover;
+            background-position: top;
+            position: relative;
+        }
+        32% {
+            background-image: linear-gradient(
+                to right bottom,
+                 rgba($color-primary-light, 0.5), 
+                 rgba($color-primary-dark, 0.5)
+            ), url(../img/cover/1.jpg);
+            background-size: cover;
+            background-position: top;
+            position: relative;
+            
+        }
+        33% {
+            background-image: linear-gradient(
+                to right bottom,
+                rgba($color-primary-light, 0.5), 
+                rgba($color-primary-dark, 0.5)
+            ), url(../img/cover/2m.jpg);
+            background-size: cover;
+            background-position: top;
+        }
+        65% {
+            background-image: linear-gradient(
+                to right bottom,
+                rgba($color-primary-light, 0.5), 
+                rgba($color-primary-dark, 0.5)
+            ), url(../img/cover/2m.jpg);
+            background-size: cover;
+            background-position: top;
+            position: relative;
+        }
+        66% {
+            background-image: linear-gradient(
+                to right bottom,
+                 rgba($color-primary-light, 0.5), 
+                 rgba($color-primary-dark, 0.5)
+            ), url(../img/cover/3.jpg);
+            background-size: cover;
+            background-position: top;
+            position: relative;
+        }
+        100% {
+            background-image: linear-gradient(
+                to right bottom,
+                 rgba($color-primary-light, 0.5), 
+                 rgba($color-primary-dark, 0.5)
+            ), url(../img/cover/3.jpg);
+            background-size: cover;
+            background-position: top;
+            position: relative;
+        }
     }
 }
 

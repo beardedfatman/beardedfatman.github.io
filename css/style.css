@@ -66,6 +66,38 @@
     background-position: top;
     position: relative; } }
 
+@media (max-width: 37.5em) {
+  @keyframes slide {
+    0% {
+      background-image: linear-gradient(to right bottom, rgba(253, 254, 255, 0.5), rgba(30, 17, 17, 0.5)), url(../img/cover/1.jpg);
+      background-size: cover;
+      background-position: top;
+      position: relative; }
+    32% {
+      background-image: linear-gradient(to right bottom, rgba(253, 254, 255, 0.5), rgba(30, 17, 17, 0.5)), url(../img/cover/1.jpg);
+      background-size: cover;
+      background-position: top;
+      position: relative; }
+    33% {
+      background-image: linear-gradient(to right bottom, rgba(253, 254, 255, 0.5), rgba(30, 17, 17, 0.5)), url(../img/cover/2m.jpg);
+      background-size: cover;
+      background-position: top; }
+    65% {
+      background-image: linear-gradient(to right bottom, rgba(253, 254, 255, 0.5), rgba(30, 17, 17, 0.5)), url(../img/cover/2m.jpg);
+      background-size: cover;
+      background-position: top;
+      position: relative; }
+    66% {
+      background-image: linear-gradient(to right bottom, rgba(253, 254, 255, 0.5), rgba(30, 17, 17, 0.5)), url(../img/cover/3.jpg);
+      background-size: cover;
+      background-position: top;
+      position: relative; }
+    100% {
+      background-image: linear-gradient(to right bottom, rgba(253, 254, 255, 0.5), rgba(30, 17, 17, 0.5)), url(../img/cover/3.jpg);
+      background-size: cover;
+      background-position: top;
+      position: relative; } } }
+
 @keyframes fadein {
   from {
     opacity: 0; }
@@ -633,7 +665,7 @@ body {
 
 .header {
   height: 93vh;
-  background-image: linear-gradient(to right bottom, rgba(253, 254, 255, 0.5), rgba(30, 17, 17, 0.5)), url(../img/cover/2.jpg);
+  background-image: linear-gradient(to right bottom, rgba(253, 254, 255, 0.5), rgba(30, 17, 17, 0.5)), url(../img/cover/1.jpg);
   background-size: cover;
   background-position: top;
   position: relative;
@@ -806,7 +838,7 @@ body {
 
 .sub-header-contact {
   height: 69vh;
-  background-image: linear-gradient(to right bottom, rgba(253, 254, 255, 0.8), rgba(30, 17, 17, 0.8)), url(../img/contact.jpg);
+  background-image: linear-gradient(to right bottom, rgba(253, 254, 255, 0.8), rgba(30, 17, 17, 0.8)), url(../img/contactm.jpg);
   background-size: cover;
   background-position: top;
   position: relative; }
